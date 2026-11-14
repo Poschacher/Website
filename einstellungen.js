@@ -1,7 +1,7 @@
 // Hier die Links für das Intern-Menü eintragen.
 // Für weitere Links eine Zeile kopieren und Name und Adresse ändern.
 const interneLinks = [
-  { name: "Beispielseite", url: "https://www.beispiel.at" },
+  { name: "Palos", url: "https://system.palos-platform.com/#/login" },
 ];
 
 // Kontaktdaten und Bilder der fünf Personen hier eintragen.
