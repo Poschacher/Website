@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Die Agrargemeinschaft Seckauer Waldgenossenschaft – gemeinsam für unseren Wald.">
+  <title>Seckauer Waldgenossenschaft</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#start" aria-label="Seckauer Waldgenossenschaft – zur Startseite"><img class="brand-logo" src="bilder/logo.jpeg" alt=""><span>SECKAUER<br><strong>WALDGENOSSENSCHAFT</strong></span></a>
+    <nav aria-label="Hauptnavigation"><a href="#ueber-uns">Über uns</a><button class="intern-trigger" type="button" data-open-intern>Intern</button><a href="#kontakt">Kontakt</a><a href="#impressum">Impressum</a></nav>
+  </header>
+
+  <main id="start">
+    <section class="hero" aria-labelledby="hero-title">
+      <!-- Eigenes Bild: Datei als bilder/wald.jpg speichern. Anleitung in README.md. -->
+      <div class="hero-image"><div class="image-note"><span>DEIN BILDPLATZ</span><p>Hier ist Platz für ein Bild<br>aus unserem Wald.</p></div><span class="image-index">SECKAU · STEIERMARK</span></div>
+      <div class="hero-content"><p class="eyebrow"><span></span> AGRARGEMEINSCHAFT SECKAUER WALDGENOSSENSCHAFT</p><h1>Unser Wald.<br><em>Unsere Zukunft.</em></h1><p class="hero-copy">Ein Ort, der verbindet. Und eine Gemeinschaft, die Verantwortung für den Wald trägt.</p><a class="button" href="#ueber-uns">Mehr über uns <span aria-hidden="true">↗</span></a></div>
+      <div class="hero-bottom"><span>VERWURZELT IN SECKAU</span><a href="#ueber-uns">ENTDECKEN <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="intro section" id="ueber-uns"><div class="section-label"><span>01 / ÜBER UNS</span><div class="line"></div></div><div class="intro-content"><p class="overline">GEMEINSAM VERWURZELT</p><h2>Ein Wald verbindet<br><em>Generationen.</em></h2><div class="intro-text"><p>Der Wald ist ein wertvoller Lebensraum und prägt unsere Heimat. Die Seckauer Waldgenossenschaft steht für die Gemeinschaft rund um diesen besonderen Ort.</p><p>Hier entsteht Raum für Informationen über unsere Agrargemeinschaft, ihre Geschichte und ihre Arbeit.</p></div></div></section>
+
+    <section class="contact section" id="kontakt"><div class="section-label light"><span>02 / KONTAKT</span><div class="line"></div></div><div class="contact-grid"><div><p class="overline">WIR FREUEN UNS AUF DEN AUSTAUSCH</p><h2>In Verbindung<br><em>bleiben.</em></h2></div><div class="contact-details"><p>Unsere Ansprechpersonen im Überblick. Klicke auf eine Person, um die Kontaktdaten zu sehen.</p><div id="personen-liste" class="people-list"></div></div></div><span class="contact-decoration" aria-hidden="true">✳</span></section>
+
+    <section class="imprint section" id="impressum"><div class="section-label"><span>03 / IMPRESSUM</span><div class="line"></div></div><div class="imprint-content"><div><p class="overline">INFORMATIONEN ZUR WEBSITE</p><h2>Impressum<span>.</span></h2></div><div><p class="notice">Die folgenden Angaben sind Platzhalter und müssen vor der Veröffentlichung vollständig ergänzt und auf ihre rechtliche Richtigkeit geprüft werden.</p><p><strong>Medieninhaberin und Herausgeberin</strong><br>Agrargemeinschaft Seckauer Waldgenossenschaft<br>Adresse wird ergänzt</p><p><strong>Kontakt</strong><br>E-Mail und Telefonnummer werden ergänzt</p><p><strong>Vertretungsbefugte Person</strong><br>Wird ergänzt</p><p>Weitere gegebenenfalls erforderliche Angaben werden ergänzt.</p></div></div></section>
+  </main>
+  <footer><a class="footer-brand" href="#start">✳ <span>SECKAUER<br>WALDGENOSSENSCHAFT</span></a><p>Gemeinsam für unseren Wald.</p><div><button class="intern-trigger" type="button" data-open-intern>Intern</button><a href="#kontakt">Kontakt</a><a href="#impressum">Impressum</a><a href="#start">Nach oben ↑</a></div></footer>
+  <dialog class="intern-dialog" aria-labelledby="intern-title">
+    <div class="dialog-heading"><p class="overline">FÜR UNSERE GEMEINSCHAFT</p><button class="dialog-close" type="button" aria-label="Menü schließen">×</button></div>
+    <h2 id="intern-title">Interner Bereich<span>.</span></h2>
+    <p>Hier findest du die Links für unsere Gemeinschaft.</p>
+    <div class="link-list" id="intern-links"></div>
+    <p class="internal-note">Dieser Bereich ist öffentlich sichtbar.</p>
+  </dialog>
+  <dialog class="person-dialog" aria-labelledby="person-name">
+    <div class="dialog-heading"><p class="overline">KONTAKT</p><button class="person-close" type="button" aria-label="Fenster schließen">×</button></div>
+    <div id="person-bild" class="person-dialog-photo"></div>
+    <p class="person-position" id="person-position"></p><h2 id="person-name"></h2>
+    <div class="person-info"><div><span>TELEFON</span><div id="person-telefon"></div></div><div><span>E-MAIL</span><div id="person-email"></div></div></div>
+  </dialog>
+  <script src="einstellungen.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
